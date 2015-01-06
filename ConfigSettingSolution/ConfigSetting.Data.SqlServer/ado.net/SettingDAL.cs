@@ -106,7 +106,7 @@ namespace ConfigSetting.Data.SqlServer
 
         public bool UpdateSettingValue(Setting entity)
         {
-            throw new NotImplementedException();
+            return false;
         }
 
         public bool UpdateSettingValue(string id, string value, string LastOperator)
