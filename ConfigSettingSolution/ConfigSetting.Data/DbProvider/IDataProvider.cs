@@ -39,6 +39,7 @@ namespace ConfigSetting.Data
         Application GetApplicationById(string id);
         Application GetApplicationByAppID(string appId);
         Application GetApplicationByName(string name);
+        bool IsExistChildApp(string applicationId, string childId);
 
         bool AddApplication(Application entity);
 

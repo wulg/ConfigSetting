@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigSetting.Data.SqlServe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigSetting.UnitTest", "ConfigSetting.UnitTest\ConfigSetting.UnitTest.csproj", "{2E70E4E3-0622-4911-A362-28AA18FF0C31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigSetting.Service", "ConfigSetting.Service\ConfigSetting.Service.csproj", "{979198F9-36BE-444A-80B5-7577FC958918}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigSetting.Cache", "ConfigSetting.Cache\ConfigSetting.Cache.csproj", "{1E9B743B-3D71-45E1-A7DA-368FFCE526F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +57,14 @@ Global
 		{2E70E4E3-0622-4911-A362-28AA18FF0C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E70E4E3-0622-4911-A362-28AA18FF0C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E70E4E3-0622-4911-A362-28AA18FF0C31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{979198F9-36BE-444A-80B5-7577FC958918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{979198F9-36BE-444A-80B5-7577FC958918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{979198F9-36BE-444A-80B5-7577FC958918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{979198F9-36BE-444A-80B5-7577FC958918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E9B743B-3D71-45E1-A7DA-368FFCE526F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E9B743B-3D71-45E1-A7DA-368FFCE526F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E9B743B-3D71-45E1-A7DA-368FFCE526F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E9B743B-3D71-45E1-A7DA-368FFCE526F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

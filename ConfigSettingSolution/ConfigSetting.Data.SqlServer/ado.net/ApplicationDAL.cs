@@ -70,6 +70,12 @@ namespace ConfigSetting.Data.SqlServer
             return GetApplicationModel(strSql);
         }
 
+        public bool IsExistChildApp(string applicationId, string childId)
+        {
+            string strSql = string.Format("select count(id) from application where appId='{0}' and parentId='{1}'", applicationId, childId);
+            return (int)DbHelper.ExecuteScalar(strSql) > 0;
+        }
+
         public Application GetApplicationByName(string name)
         {
             string strSql = string.Format("select {0} from application where name='{1}'", DbFields.APPLICATION, name);
